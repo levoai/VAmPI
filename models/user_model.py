@@ -97,3 +97,5 @@ class User(db.Model):
         User.register_user("name1", "pass1", "mail1@mail.com", False)
         User.register_user("name2", "pass2", "mail2@mail.com", False)
         User.register_user("admin", "pass1", "admin@mail.com", True)
+        User.register_user("admin2", "pass2", "admin2@mail.com", True)
+        
